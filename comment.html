@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>评论页</title>
+	<link rel="stylesheet" href="css/comment.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+</head>
+<body>
+	<div class="wrap">
+		<header class="header">
+			<a href="##" class="search"></a>
+			<img src="img/94.png" alt="">
+			<a href="#" class="collect"></a>
+			<a href="#" class="transpond"></a>
+		</header>
+		<section class="section">
+			<section class="head">
+				<dl>
+					<dt><img src="img/70.png" alt=""></dt>
+					<dd>
+						<h2>东风又能把我咋地 樱花身体滋养护理宝盒</h2>
+						<p>￥ 699.00</p>
+					</dd>
+				</dl>
+			</section>
+			<section class="nav">
+				<ul class="uls">
+					<li>宝盒说明</li>
+					<li>平台信息</li>
+					<li class="libg">评论</li>
+				</ul>
+			</section>
+			<section class="all">
+				<div class="none">
+					<h2>所有<span>0</span>条评论</h2>
+					<section class="odd">
+						<img src="img/69.png" alt="">
+						<input type="text" class="txt" placeholder="评论">
+					</section>
+				</div>
+				<div class="none">
+					<h2>所有<span>1</span>条评论</h2>
+					<section class="odd">
+						<img src="img/69.png" alt="">
+						<input type="text" class="txt" placeholder="评论">
+					</section>
+				</div>
+				<div class="">
+					<h2>所有<span>2</span>条评论</h2>
+					<section class="odd">
+						<img src="img/69.png" alt="">
+						<input type="text" class="txt" placeholder="评论">
+					</section>
+				</div>
+			</section>
+		</section>
+		<footer class="footer">
+			<p><a href="#">购买</a></p>
+		</footer>
+	</div>
+	<script src="js/zrpto.js"></script>
+	<script>
+		$('.uls li').tap(function(){
+			var i=$(this).index();
+			$(this).addClass('libg').siblings().removeClass('libg')
+			$('.all div').eq(i).removeClass('none').siblings().addClass('none')
+		})
+	</script>
+</body>
+</html>

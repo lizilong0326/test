@@ -1,0 +1,102 @@
+@charset "UTF-8";
+body, div, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, table, tr, td, form, input, select, textarea, span, img, a, em, strong, * {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box; }
+
+body {
+  font-family: "瀹嬩綋";
+  font-size: 12px;
+  color: #333333; }
+
+ul, ol, li {
+  list-style: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 14px; }
+
+input, select, textarea {
+  vertical-align: middle; }
+
+img {
+  border: none;
+  vertical-align: middle; }
+
+a {
+  text-decoration: none;
+  color: #333333; }
+
+a:hover {
+  color: #009999; }
+
+.clear {
+  clear: both;
+  height: 0px;
+  width: 0px;
+  overflow: hidden; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%; }
+
+.wrap {
+  display: -webkit-flex;
+  -webkit-flex-direction: column;
+  background: #F0F0F0; }
+
+.header {
+  width: 100%;
+  height: 44px;
+  background: #212121;
+  text-align: center;
+  line-height: 44px;
+  position: relative; }
+  .header img {
+    width: 42px; }
+    .header img img {
+      width: 100%; }
+  .header .search {
+    position: absolute;
+    width: 15px;
+    height: 22px;
+    background: url(../img/81.png);
+    background-size: cover;
+    top: 10px;
+    left: 22px; }
+
+.section {
+  width: 100%;
+  height: 100%;
+  -webkit-flex: 1; }
+  .section .one {
+    width: 100%;
+    padding-left: 16px;
+    background: #fff; }
+
+.one {
+  margin-bottom: 5px; }
+  .one dl {
+    width: 100%;
+    display: -webkit-flex;
+    padding: 20px 0;
+    border-bottom: solid 1px #C8C7CC; }
+    .one dl dt {
+      width: 21px; }
+      .one dl dt img {
+        width: 100%; }
+    .one dl dd {
+      -webkit-flex: 1;
+      width: 100%;
+      padding-top: 5px;
+      padding-left: 16px; }
+      .one dl dd a {
+        float: right;
+        width: 8px;
+        height: 12px;
+        background: url(../img/58.png) no-repeat;
+        background-size: contain;
+        padding-right: 17px; }
+  .one dl:last-child {
+    border: none; }
+
+/*# sourceMappingURL=install.css.map */
